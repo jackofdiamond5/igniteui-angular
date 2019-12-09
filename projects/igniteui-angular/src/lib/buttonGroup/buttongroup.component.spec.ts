@@ -65,6 +65,10 @@ describe('IgxButtonGroup', () => {
         .compileComponents();
     }));
 
+    it('Should fail', () => {
+        TestBed.fail();
+    });
+
    it('should initialize buttonGroup with default values', () => {
         const fixture = TestBed.createComponent(InitButtonGroupComponent);
         fixture.detectChanges();
