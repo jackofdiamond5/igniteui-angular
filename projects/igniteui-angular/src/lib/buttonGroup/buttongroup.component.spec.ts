@@ -66,7 +66,7 @@ describe('IgxButtonGroup', () => {
     }));
 
     it('Should fail', () => {
-        TestBed.fail();
+        fail();
     });
 
    it('should initialize buttonGroup with default values', () => {
